@@ -1,0 +1,40 @@
+.square {
+	width: 100px;
+	height: 100px;
+}
+
+.m {
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+}
+
+.c {
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+}
+
+
+td {
+	text-align: center;
+	font-size: 80px;
+}
+
+#board {
+	width: 100%;
+}
+
+table {
+	margin: 0px auto;
+}
+
+#header {
+	width: 100%;
+}
+
+h1 {
+	text-align: center;
+}
+
+#turn {
+	text-align: center;
+}
