@@ -10,7 +10,9 @@ $(document).ready( function() {
 	}
 
 	function playerOwin() {
-		$('#video').toggle();
+		$('#video').toggle(function() {
+			$('#video')[0].play();
+		});
 		$('table').toggle();		
 		$('#turn').html("<h5>Player O wins!!</h5>");
 		$('td').off('click');
