@@ -1,12 +1,19 @@
 $(document).ready( function() {
 	var turnCount = 0;
-
 	function playerXwin() {
-		alert("Player X has won!!!!!!!!!!!")
+		$('#video').toggle(function() {
+			$('#video')[0].play();
+		});
+		$('table').toggle();
+		$('#turn').html("<h5>Player X wins!!</h5>");
+		$('td').off('click');
 	}
 
 	function playerOwin() {
-		alert("Player O has won!!!!!!!!!!!")
+		$('#video').toggle();
+		$('table').toggle();		
+		$('#turn').html("<h5>Player O wins!!</h5>");
+		$('td').off('click');
 	}
 
 	$('td').on('click', function() {

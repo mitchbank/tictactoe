@@ -38,3 +38,9 @@ h1 {
 #turn {
 	text-align: center;
 }
+
+#video {
+	display: none;
+	width: 854px;
+	height: 480px;
+}
